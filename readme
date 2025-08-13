@@ -1,6 +1,6 @@
 First, I made a `sudo mkdir -p` to a folder named "NetowrkDrives", then I take ownership of them with `chown`. (drives were mounted with `sudo mount -a` while learning the process)
 
-<img width="1237" height="620" alt="Image" src="https://github.com/user-attachments/assets/8665f648-fce6-4768-8224-9c84b14e0fee">
+Screenshot 2025-07-24 220218
 
 Then I edited that folder's CIFS in FSTAB to make it so the disk will automatically mount on boot.
 
