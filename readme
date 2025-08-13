@@ -1,9 +1,9 @@
 First, I made a `sudo mkdir -p` to a folder named "NetowrkDrives", then I take ownership of them with `chown`. (drives were mounted with `sudo mount -a` while learning the process)
-![alt  text](https://github.com/Nmc2493/Persistent-Disk-Mounting-on-Raspberry-Pi-4b/blob/main/Screenshot%202025-07-24%20220218.png "SC1")
+<img width="1237" height="620" alt="Image" src="https://github.com/user-attachments/assets/b81e4997-3ffe-4dfd-a2f8-cc66080d1347" />
 Then I edited that folder's CIFS in FSTAB to make it so the disk will automatically mount on boot.
-![alt  text](https://github.com/Nmc2493/Persistent-Disk-Mounting-on-Raspberry-Pi-4b/blob/main/Screenshot%202025-07-28%20183233.png "SC2")
+<img width="1101" height="574" alt="Image" src="https://github.com/user-attachments/assets/df3e43f0-7e1f-48c1-9a57-19e7f41dfec8" />
 I then reloaded the system state to authorize the modification,...
-![alt text](https://github.com/Nmc2493/Persistent-Disk-Mounting-on-Raspberry-Pi-4b/blob/main/Screenshot%202025-07-28%20181056.png "SC3")
+<img width="840" height="207" alt="Image" src="https://github.com/user-attachments/assets/8301119e-7d7e-4728-9d60-4713309e5ff8" />
 ...and then used `df -h` and `lsblk` to check the mounted drives. 
-![alt text](https://github.com/Nmc2493/Persistent-Disk-Mounting-on-Raspberry-Pi-4b/blob/main/Screenshot%202025-07-30%20183336.png "SC4")
-![alt text](https://github.com/Nmc2493/Persistent-Disk-Mounting-on-Raspberry-Pi-4b/blob/main/Screenshot%202025-07-30%20183356.png "SC5")
+<img width="679" height="191" alt="Image" src="https://github.com/user-attachments/assets/1843fc50-4220-4e48-babb-aa011cfd5075" />
+<img width="575" height="132" alt="Image" src="https://github.com/user-attachments/assets/b4055c74-34e2-4230-b167-82f0ed4e191b" />
