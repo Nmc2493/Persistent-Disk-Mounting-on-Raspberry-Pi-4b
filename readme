@@ -1,17 +1,17 @@
 First, I made a `sudo mkdir -p` to a folder named "NetowrkDrives", then I take ownership of them with `chown`. Drives were mounted with `sudo mount -a` while learning the process.
 
-![Raspberry Pi disk mounting screenshot](./SC1.png)
+![step 1](./SC1.png)
 
 Then I edited that folder's CIFS in FSTAB to make it so the disk will automatically mount on boot.
 
-<img width="1101" height="574" alt="Image" src="https://github.com/user-attachments/assets/532ef7a8-a533-4f89-8f68-21493a1f1c49" />
+![step 2](./SC2.png)
 
 I then reloaded the system state to authorize the modification,...
 
-<img width="840" height="207" alt="Image" src="https://github.com/user-attachments/assets/a97bcd40-fddf-441f-be5a-42fd3c98ac89" />
+![step 3](./SC3.png)
 
 ...and then used `df -h` and `lsblk` to check the mounted drives. 
 
-<img width="679" height="191" alt="Image" src="https://github.com/user-attachments/assets/26ea766d-fd28-4dba-a0bd-b4e35eb45ff7" />
+![step 4](./SC4.png)
 
-<img width="575" height="132" alt="Image" src="https://github.com/user-attachments/assets/de66c4ad-8381-44ce-bd62-4ea993230488" />
+![step 5](./SC5.png)
