@@ -1,6 +1,6 @@
 First, I made a `sudo mkdir -p` to a folder named "NetowrkDrives", then I take ownership of them with `chown`. Drives were mounted with `sudo mount -a` while learning the process.
 
-![Sample Raspberry Pi Setup](images/SC1.png)
+![Sample Raspberry Pi Setup](https://github.com/Nmc2493/Persistent-Disk-Mounting-on-Raspberry-Pi-4b/blob/main/SC1.png?raw=true)
 
 Then I edited that folder's CIFS in FSTAB to make it so the disk will automatically mount on boot.
 
